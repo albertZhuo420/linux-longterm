@@ -28,3 +28,6 @@ dtb-$(CONFIG_ARCH_VEXPRESS) += \
 	vexpress-v2p-ca9.dtb \
 	vexpress-v2p-ca15-tc1.dtb \
 	vexpress-v2p-ca15_a7.dtb
+# For Qemu
+dtb-$(CONFIG_ARCH_VEXPRESS) += \
+	vexpress-v2p-ca9_qemu.dtb
