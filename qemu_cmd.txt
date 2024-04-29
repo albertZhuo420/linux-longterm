@@ -1,0 +1,5 @@
+make modules_install INSTALL_MOD_PATH=./module_tmp/
+mv module_tmp/lib/* /home/zhuo/work/server_dir/nfs/buildroot/vexpress_a9/lib/
+make vexpress_qemu_defconfig
+source /home/zhuo/work/cross_toolchain/source_sh/vexpress_a9.sh
+cp /home/zhuo/Nutstore\ Files/Z_TMP/config-files/buildroot/profile-buildroot /home/zhuo/work/server_dir/nfs/buildroot/vexpress_a9/etc/profile -af
