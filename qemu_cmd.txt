@@ -3,3 +3,6 @@ mv module_tmp/lib/* /home/zhuo/work/server_dir/nfs/buildroot/vexpress_a9/lib/
 make vexpress_qemu_defconfig
 source /home/zhuo/work/cross_toolchain/source_sh/vexpress_a9.sh
 cp /home/zhuo/Nutstore\ Files/Z_TMP/config-files/buildroot/profile-buildroot /home/zhuo/work/server_dir/nfs/buildroot/vexpress_a9/etc/profile -af
+cp arch/arm/boot/zImage /home/zhuo/work/qemu_test/ -af
+cp arch/arm/boot/dts/arm/vexpress-v2p-ca9_qemu.dtb /home/zhuo/work/qemu_test/ -af
+cp arch/arm/boot/uImage /home/zhuo/work/qemu_test/ -af
